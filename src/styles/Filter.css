@@ -1,0 +1,49 @@
+.form-control {
+  font-size: 1.3rem;
+  line-height: 1.1;
+  display: flex;
+  justify-content: center;
+  float: right;
+  border: none !important;
+  background-color: rgb(211, 211, 211) !important;
+  transition: background-color 0.2s ease-in-out;
+  padding: 0% !important;
+}
+
+.filter-container {
+  transition: transform 0.2s ease-in-out;
+}
+
+.filter-container:hover {
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+.form-control:hover {
+  background-color: #f8f9fa;
+}
+
+.price-range td,
+.ratings td {
+  transition: transform 0.2s ease-in-out;
+}
+
+.price-range td:hover,
+.ratings td:hover {
+  transform: scale(1.1);
+}
+
+.form-control input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.form-control.star input {
+  display: none;
+}
+
+.form-control.star .fa-star {
+  color: #ddd;
+}
+
+.form-control.star .golden {
+  color: gold;
+}
